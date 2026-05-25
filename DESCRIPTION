@@ -1,0 +1,23 @@
+Package: injuryExplorer
+Title: ER Injury Data Explorer
+Version: 0.0.0.9000
+Authors@R: 
+    person("Funmi", "Olawole", 
+           email = "aolaw002@ucr.edu", 
+           role = c("aut", "cre"))
+Description: A Shiny application for exploring emergency room injury data
+    from the Mastering Shiny ER injuries case study. The app provides
+    graphical summaries, numerical summaries, and patient narratives
+    based on injury characteristics.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Imports: 
+    dplyr,
+    DT,
+    ggplot2,
+    magrittr,
+    plotly,
+    shiny,
+    vroom
